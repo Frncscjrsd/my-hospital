@@ -1,10 +1,47 @@
-.doctor-card {
-  border: 1px solid #ddd;
-  padding: 1em;
-  margin: 1em 0;
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
-.service-list {
+h2 {
+  color: #2c3e50;
+}
+
+ul {
   list-style-type: none;
   padding: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #2980b9;
+}
+
+p {
+  margin: 5px 0;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
 }
